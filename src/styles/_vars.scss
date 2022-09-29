@@ -1,0 +1,14 @@
+// https://sass-lang.com/documentation/modules/color#scale
+@use "sass:color";
+
+$color-base: #615c73;
+$color-input: color.scale($color-base, $lightness: -20%);
+$color-border: color.scale($color-base, $lightness: -40%);
+$color-light: white;
+$color-placeholder: color.scale($color-light, $alpha: -50%);
+$color-task: #eee;
+$color-task-border: #ccc;
+$color-shadow: inset 0 0 25px rgba(0,0,0,.1);
+$color-shadow-focus: inset 0 0 25px rgba(0,0,0,.5);
+
+$gutter: 1rem;

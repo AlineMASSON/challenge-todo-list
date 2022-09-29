@@ -1,0 +1,15 @@
+@use '../../styles/vars';
+
+.form-item {
+  width: 100%;
+  color: vars.$color-light;
+  font-size: 2em;
+  background: vars.$color-input;
+  border: 1px solid vars.$color-border;
+  box-shadow: vars.$color-shadow;
+  padding: vars.$gutter;
+}
+
+.form-item::placeholder {
+  color: vars.$color-placeholder;
+}
